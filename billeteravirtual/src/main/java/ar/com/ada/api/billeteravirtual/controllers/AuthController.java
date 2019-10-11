@@ -20,8 +20,7 @@ public class AuthController {
         //aca creamos la persona y el usuario a travez del service.
 
         Persona persona = new Persona();
-        persona.setEmail(req.email);   
-
+        persona.setEmail(req.email);  
 
         r.isOk = true;
         r.message = "Te registraste con exitoooo";
