@@ -52,6 +52,5 @@ public class PersonaService {
             return p.get();
         return null;
     }
-
 }
 
