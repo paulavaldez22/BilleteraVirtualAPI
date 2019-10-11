@@ -13,6 +13,8 @@ import ar.com.ada.api.billeteravirtual.entities.*;
 public interface PersonaRepository extends JpaRepository<Persona, Integer> {
     Persona findByNombre(String nombrePersona);
 
+
+    
     Persona findByDni(String dni);
 
     //Este caso aplica al named query creado en el objeto persona, fijarse que el nombre del named query coincide con el nombre de este metodo
