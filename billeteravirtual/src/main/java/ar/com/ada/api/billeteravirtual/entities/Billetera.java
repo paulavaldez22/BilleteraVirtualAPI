@@ -63,4 +63,10 @@ public class Billetera {
     {
         return this.cuentas.get(0).getSaldo();
     }
+
+	public void transferencia(Billetera aBilletera, BigDecimal plata, String moneda, String concepto, String detalle) {
+	}
+
+	public void descontarPlata(BigDecimal plata, String moneda, String concepto, String detalle) {
+	}
 }

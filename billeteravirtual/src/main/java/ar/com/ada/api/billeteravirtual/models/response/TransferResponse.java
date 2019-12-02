@@ -1,11 +1,10 @@
 package ar.com.ada.api.billeteravirtual.models.response;
 
 /**
- * RegistrationResponse
+ * TransferResponse
  */
-public class RegistrationResponse {
+public class TransferResponse {
 
     public boolean isOk = false;
     public String message = "";
-    public int userId;
 }

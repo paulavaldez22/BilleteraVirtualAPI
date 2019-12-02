@@ -52,5 +52,13 @@ public class PersonaService {
             return p.get();
         return null;
     }
+    public void grabar(Persona p)
+    {
+        repo.save(p);
+    }
+
 }
+
+
+
 
